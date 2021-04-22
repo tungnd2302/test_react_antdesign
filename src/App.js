@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import 'antd/dist/antd.css';
+import { TimePicker } from 'antd';
+import moment from 'moment';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <TimePicker defaultValue={moment('12:08:23', 'HH:mm:ss')} size="large" />
+            <TimePicker defaultValue={moment('12:08:23', 'HH:mm:ss')} />
+            <TimePicker defaultValue={moment('12:08:23', 'HH:mm:ss')} size="small" />
+        </>
+    );
 }
 
 export default App;
