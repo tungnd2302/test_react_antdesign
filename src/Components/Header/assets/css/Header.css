@@ -1,0 +1,55 @@
+.header-layout {
+    border-bottom: 1px solid #707070;
+}
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-border {
+    border-color: #707070;
+}
+
+.header-input {
+    border-radius : 11px;
+    height :36px;
+    width : 460px;
+    background-color: #EEF3F9;
+    border: none;
+}
+
+.header-input > .ant-input {
+    background-color: #EEF3F9;
+}
+
+.header-wrap-badge {
+    height: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.header-wrap-badge .header-icon {
+    line-height: 15px;
+    height: 15px;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.header-user-infomation {
+    height: 50px;
+    line-height: 30px;
+    margin-left: 11px;
+}
+
+.header-user-infomation .student-name {
+    height: 21px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.header-user-infomation .student-class {
+    height: 10px;
+    margin-bottom: 0px;
+}
+
+
+
