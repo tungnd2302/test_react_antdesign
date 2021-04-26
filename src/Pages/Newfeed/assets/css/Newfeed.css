@@ -1,0 +1,81 @@
+.on-top-header {
+    padding-top: 53px;
+}
+
+.newfeed-background {
+    background-color: #F5F5F5;
+    height: 1000px;
+}
+
+.profife-brief {
+    border: 1px solid #DFDEDB;
+    border-radius: 15px;
+    /* box-shadow: 10px 14px #000; */
+    height: 173px;
+    background-color: #fff;
+}
+
+.profile-image {
+    position: relative;
+    height: 90px;
+    margin-bottom: 20px;
+    
+}
+
+.profile-cover-image {
+    height: 54px;
+    border-bottom: 1px solid #DFDEDB;
+}
+
+.profile-avatar-image {
+    height: 72px;
+    width: 72px;
+    border: 1px solid #DFDEDB;
+    border-radius: 50%;
+    position: absolute;
+    top: 17px;
+    left: 75px;
+}
+
+.profile-intro {
+    font-size: 12px;
+    
+}
+
+.profile-intro .sayhi {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.profile-intro a {
+    color: #000;
+}
+/* =============== */
+.newfeed-main {
+    padding: 0px 44px;
+}
+
+.post-action {
+    border: 1px solid #DFDEDB;
+    background-color: #fff;
+    padding: 22px 18px 15px;
+}
+
+.post-action .textarea-bg {
+    border-radius: 18px;
+    padding-left: 18px;
+}
+
+.post-action .type-post-action {
+    margin-top: 22px;
+    padding: 0px 27px;
+}
+
+.post-action .type-post-action .share-post span,
+.post-action .type-post-action .document-post span {
+    margin-left: 8px;
+}
+
+.post-action .type-post-action .document-post {
+    margin-left: 20px;
+}
