@@ -3,6 +3,7 @@ import { Input } from 'antd';
 import { EditFilled } from '@ant-design/icons';
 import newspaper from './assets/images/newspaper.png';
 import document from './assets/images/document.png';
+import photos from './assets/images/photos.png';
 
 const { TextArea } = Input;
 
@@ -29,6 +30,11 @@ function PostAction(props) {
             />
 
             <div className="type-post-action d-flex">
+                <div className="photo-post">
+                    <img src={photos} alt=""/>
+                    <span>Hình ảnh</span>
+                </div>
+
                 <div className="share-post">
                     <img src={newspaper} alt=""/>
                     <span>Bài chia sẻ</span>
@@ -39,7 +45,6 @@ function PostAction(props) {
                     <span>Tài liệu</span>
                 </div>
             </div>
-
         </div>
     );
 }

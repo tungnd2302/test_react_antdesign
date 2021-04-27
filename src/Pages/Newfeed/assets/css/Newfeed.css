@@ -4,7 +4,7 @@
 
 .newfeed-background {
     background-color: #F5F5F5;
-    height: 1000px;
+    padding-bottom: 100px;
 }
 
 .profife-brief {
@@ -72,10 +72,164 @@
 }
 
 .post-action .type-post-action .share-post span,
-.post-action .type-post-action .document-post span {
+.post-action .type-post-action .document-post span,
+.post-action .type-post-action .photo-post span {
     margin-left: 8px;
+    vertical-align: middle;
 }
 
+.post-action .type-post-action .share-post,
 .post-action .type-post-action .document-post {
     margin-left: 20px;
 }
+
+/* ==== */
+
+.general-post {
+    margin-top: 25px;
+    padding: 20px 0px;
+    background-color: #fff;
+    border: 1px solid #DFDEDB;
+}
+
+.author-info {
+    padding: 0px 18px;
+}
+
+.author-info .author-avatar {
+    margin-right: 8px;
+}
+
+.author-info .author-indi .author-indi-name, 
+.author-info .author-indi .author-indi-role, 
+.author-info .author-indi .created-at{
+    margin-bottom: 0px;
+}
+
+.author-info .author-indi .author-indi-role {
+    font-size: 10px;
+}
+
+.author-info .author-indi .created-at{
+    font-size: 8px;
+}
+
+.post-content {
+    margin-top: 13px;
+}
+
+.post-content .content-text {
+   padding: 0px 18px;
+}
+
+.photos-post {
+    margin-top: 13px;
+}
+
+/* ===  */
+.react-post-action,
+.comment-section {
+    margin-top: 13px;
+    padding: 0px 20px;
+}
+
+.react-post-action .quantity-react-action .like {
+    margin-right: 12px;
+}
+
+.react-post-action .quantity-react-action .like img, 
+.react-post-action .quantity-react-action .comment img {
+    margin-right: 6px;
+}
+
+.react-post-action .quantity-react-action .like span, 
+.react-post-action .quantity-react-action .comment span {
+    vertical-align: middle;
+}
+
+.border {
+    background: #707070;
+    /* opacity: 0.5; */
+    margin-top: 10px;
+}
+
+/* === */
+.comment-section .your-comment .textarea-bg {
+    border-radius: 18px;
+    padding-left: 18px;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.comment-section .your-comment img{
+    height: 48px;
+    width: 48px;
+}
+
+.comment-section .friends-comment {
+    margin-top: 13px;
+}
+
+.comment-section .friends-comment.child-comment {
+    margin-left: 50px;
+}
+
+
+
+.comment-section .friends-comment img.friend-avatar {
+    height: 48px;
+    width: 48px;
+}
+
+.comment-section .friends-comment .content-comment {
+    background-color: #F2F2F2;
+    width: 100%;
+    margin-left: 8px;
+    padding: 6px 18px;
+    border-radius: 18px;
+    border: 1px solid #707070;
+}
+
+/* ===  */
+.react-comment-action {
+    margin-top: 6px;
+    padding: 0px 20px;
+}
+
+.react-comment-action .quantity-react-action .like {
+    margin-right: 12px;
+}
+
+.react-comment-action .quantity-react-action .like img, 
+.react-comment-action .quantity-react-action .comment img {
+    margin-right: 6px;
+}
+
+.react-comment-action .quantity-react-action .like span, 
+.react-comment-action .quantity-react-action .comment span {
+    vertical-align: middle;
+}
+
+.react-comment-action .quantity-react-action .comment {
+    margin-top: 2px;
+}
+
+
+/* === Modal ===  */
+.my-modal .ant-modal-body {
+    padding: 0px
+}
+
+.image-item-slider img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+

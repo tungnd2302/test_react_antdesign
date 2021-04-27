@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Layout, Row } from 'antd';
 import './assets/css/Newfeed.css';
 import PostAction from './PostAction';
+import Posts from './Posts';
 
 
 function Newfeed(props) {
@@ -26,9 +27,11 @@ function Newfeed(props) {
                 </Col>
                 <Col span={12}>
                    <div className="newfeed-main">
-                       
-                           <PostAction/>
-
+                        <PostAction/>
+                        <Posts/>
+                        <Posts/>
+                        <Posts/>
+                        
                    </div>
                 </Col>
                 <Col span={7}>
